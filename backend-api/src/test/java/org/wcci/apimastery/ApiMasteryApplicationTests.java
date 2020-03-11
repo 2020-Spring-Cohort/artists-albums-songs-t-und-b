@@ -1,16 +1,17 @@
 package org.wcci.apimastery;
 
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
+import static org.junit.jupiter.api.Assertions.fail;
+
 @SpringBootTest
 public class ApiMasteryApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
+		fail("GitHub Actions goes boom!");
 	}
 
 }
