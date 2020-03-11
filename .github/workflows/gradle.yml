@@ -1,7 +1,7 @@
-# This workflow will build a Java project with Gradle
+# This workflow will run all tests in a Java project with Gradle
 # For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-gradle
 
-name: Java CI with Gradle
+name: Java Test with Gradle
 
 on:
   push:
@@ -23,4 +23,4 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x backend-api/gradlew
     - name: Build with Gradle
-      run: ./backend-api/gradlew build
+      run: ./backend-api/gradlew test
