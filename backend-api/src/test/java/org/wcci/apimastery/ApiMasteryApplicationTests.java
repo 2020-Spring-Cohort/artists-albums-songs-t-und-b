@@ -11,7 +11,7 @@ public class ApiMasteryApplicationTests {
 	@Test
 	public void contextLoads() {
 
-		fail("GitHub Actions goes boom!");
+
 	}
 
 }
